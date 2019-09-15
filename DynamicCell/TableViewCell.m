@@ -11,6 +11,7 @@
 @implementation TableViewCell
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     [self setBackgroundColor:[UIColor redColor]];
 }
 
